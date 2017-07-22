@@ -20,7 +20,7 @@ class Primenumnber extends Admin_Controller {
         $this->mViewData['data_cat'] = $this->mo_primenumnber->get_all();
         $form = $this->form_builder->create_form();
         $this->mViewData['form'] = $form;
-        $this->render('form');
+        $this->render('api');
     }
 
     public function create($id = NULL) {
