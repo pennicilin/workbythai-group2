@@ -70,5 +70,13 @@
 		redirect('admin/primenumnber/', 'refresh');
 	}
 
+	public function prime_number ()
+	{
+		$x = $this->input->post('number1');
+		$y = $this->input->post('number2');
+
+		
+	}
+
 }
 						
